@@ -94,6 +94,7 @@ function Circle(x, y, radius, dx, dy) {
     }
 
 }
+// making new circles and string them in an array
 var circleArray = [];
 for (var i = 0; i < 1000; i++) {
     var x = Math.random() * window.innerWidth;
